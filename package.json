@@ -16,7 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
+    "mime": "^2.2.0",
     "morgan": "^1.7.0",
+    "neo-async": "^2.5.0",
     "spdy": "^3.4.0"
   },
   "devDependencies": {
