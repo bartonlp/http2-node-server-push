@@ -1,8 +1,8 @@
 # node-h2-server-push
 
-I *forked* this example and changed they way we decide which programs should be **push**ed.
+I *forked* this example and changed the way we decide which programs should be **push**ed.
 
-I added this to the main **app.use() function that does all the work.
+I added this to the main **app.use()** function that does all the work.
 ```
   let file = fs.readFileSync(path.join(__dirname, 'public', `${urlName}`), {encoding: 'utf8'})
              .split('\n')
